@@ -15,13 +15,14 @@
  */
 package org.springframework.samples.petclinic.api.dto;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.Data;
+import static java.util.stream.Collectors.toList;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static java.util.stream.Collectors.toList;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import lombok.Data;
 
 /**
  * @author Maciej Szarlinski

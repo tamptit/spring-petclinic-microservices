@@ -76,7 +76,7 @@ class PetResource {
         petRepository.findPetTypeById(petRequest.getTypeId())
             .ifPresent(pet::setType);
 
-        log.info("Saving pet {}", pet);
+//        log.info("Saving pet {}", pet);
         return petRepository.save(pet);
     }
 

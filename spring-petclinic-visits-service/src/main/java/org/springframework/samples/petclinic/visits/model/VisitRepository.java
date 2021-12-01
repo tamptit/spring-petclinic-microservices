@@ -30,6 +30,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @author Michael Isvy
  * @author Maciej Szarlinski
  */
+//@Repository
 public interface VisitRepository extends JpaRepository<Visit, Integer> {
 
     List<Visit> findByPetId(int petId);
